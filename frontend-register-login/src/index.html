@@ -1,54 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividade 4</title>
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <header>
+      <div class="container">
         <h1>Atividade 4</h1>
         <nav>
-            <a href="">Cadastro</a>
-            <a href="">Login</a>
+          <a href="#cadastrarButton">Cadastro</a>
+          <a href="#entrarButton">Login</a>
         </nav>
+      </div>
     </header>
     <main>
-        <section>
-            <span>EXERCÍCIO DE HTML, CSS E JAVASCRIPT</span>
-            <h2>Cadastro e login usando localStorage</h2>
-            <p>Este projeto simula um cadastro simples de usuário e uma tela de login.</p>
+      <div class="container">
+        <section id="titulo">
+          <span>EXERCÍCIO DE HTML, CSS E JAVASCRIPT</span>
+          <h2>Cadastro e login usando localStorage</h2>
+          <p>
+            Este projeto simula um cadastro simples de usuário e uma tela de
+            login.
+          </p>
         </section>
-        <div>
-            <section>
-                <h3>Criar conta</h3>
-                <p>Preencha os dados abaixo para cadastrar um novo usuário.</p>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" placeholder="Ex.: Ana Silva">
-                <label for="email">E-mail</label>
-                <input type="text" id="email" placeholder="ana@gmail.com">
-                <label for="senha">Senha</label>
-                <input type="text" id="senha" placeholder="Mínimo 6 caracteres">
-                <button>Cadastrar</button>
-            </section>
-            <section>
-                <h3>Entrar</h3>
-                <p>Use o e-mail e a senha cadastrados para acessar o sistema.</p>
-                <label for="email">E-mail</label>
-                <input type="text" id="email" placeholder="ana@gmail.com">
-                <label for="senha">Senha</label>
-                <input type="text" id="senha" placeholder="Digite sua senha">
-                <button>Entrar</button>
-            </section>
+        <div class="formularios">
+          <section>
+            <h3>Criar conta</h3>
+            <p>Preencha os dados abaixo para cadastrar um novo usuário.</p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Ex.: Ana Silva" />
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="ana@gmail.com" />
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" placeholder="Mínimo 6 caracteres" />
+            <button id="cadastrarButton">Cadastrar</button>
+          </section>
+          <section>
+            <h3>Entrar</h3>
+            <p>Use o e-mail e a senha cadastrados para acessar o sistema.</p>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="ana@gmail.com" />
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" placeholder="Digite sua senha" />
+            <button id="entrarButton">Entrar</button>
+          </section>
         </div>
         <section>
-            <h3>O que os alunos devem observar</h3>
-            <ul>
-                <li>O HTML deve usar elementos semântico como <span>header</span> , <span>main</span> , <span>section</span> , <span>aticle</span> e <span>form</span>.</li>
-                <li>O CSS deve organizar a tela com cards, grid, espaçamento, cores leves e estados visuais.</li>
-                <li>O JavaScript escuta eventos de formulário, valida dados simples e usa <span>localStorage</span>.</li>
-            </ul>
+          <h3>O que os alunos devem observar</h3>
+          <ul>
+            <li>
+              O HTML deve usar elementos semântico como <span>header</span> ,
+              <span>main</span> , <span>section</span> , <span>aticle</span> e
+              <span>form</span>.
+            </li>
+            <li>
+              O CSS deve organizar a tela com cards, grid, espaçamento, cores
+              leves e estados visuais.
+            </li>
+            <li>
+              O JavaScript escuta eventos de formulário, valida dados simples e
+              usa <span>localStorage</span>.
+            </li>
+          </ul>
         </section>
+      </div>
     </main>
-</body>
+  </body>
 </html>
