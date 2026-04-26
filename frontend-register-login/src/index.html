@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividade 4</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -27,7 +33,7 @@
           </p>
         </section>
         <div class="formularios">
-          <section>
+          <section class="formulario">
             <h3>Criar conta</h3>
             <p>Preencha os dados abaixo para cadastrar um novo usuário.</p>
             <label for="nome">Nome</label>
@@ -38,7 +44,7 @@
             <input type="text" id="senha" placeholder="Mínimo 6 caracteres" />
             <button id="cadastrarButton">Cadastrar</button>
           </section>
-          <section>
+          <section class="formulario">
             <h3>Entrar</h3>
             <p>Use o e-mail e a senha cadastrados para acessar o sistema.</p>
             <label for="email">E-mail</label>
@@ -52,9 +58,9 @@
           <h3>O que os alunos devem observar</h3>
           <ul>
             <li>
-              O HTML deve usar elementos semântico como <span>header</span> ,
-              <span>main</span> , <span>section</span> , <span>aticle</span> e
-              <span>form</span>.
+              O HTML deve usar elementos semântico como <span class="elementosSemanticos">header</span> ,
+              <span class="elementosSemanticos">main</span> , <span class="elementosSemanticos">section</span> , <span class="elementosSemanticos">aticle</span> e
+              <span class="elementosSemanticos">form</span>.
             </li>
             <li>
               O CSS deve organizar a tela com cards, grid, espaçamento, cores
@@ -62,7 +68,7 @@
             </li>
             <li>
               O JavaScript escuta eventos de formulário, valida dados simples e
-              usa <span>localStorage</span>.
+              usa <span class="elementosSemanticos">localStorage</span>.
             </li>
           </ul>
         </section>

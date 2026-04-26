@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -74,5 +75,43 @@ p{
 
 .formularios{
     display: flex;
+    flex-direction: row;
     gap: 20px;
+}
+
+.formulario{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.formulario label{
+    font-weight: bold;
+}
+
+.container section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.elementosSemanticos{
+    background-color: #f5f7ff;
+    padding: 5px;
+    color: #7f7ac5;
+    border-radius: 20px;
+}
+
+input{
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
 }
