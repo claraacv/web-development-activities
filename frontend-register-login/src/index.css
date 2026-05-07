@@ -77,6 +77,7 @@ p{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    width: 100%;
 }
 
 .formulario{
@@ -114,4 +115,76 @@ button{
     border-radius: 10px;
     padding: 10px;
     border: none;
+    margin-top: 10px;
+}
+
+.msg-erro{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px gray solid;
+    font-size: x-small;
+    margin-top: 2px;
+    display: none;
+}
+
+.msg-erro.ativo{
+    display: block;
+}
+
+#final{
+    margin-top: 50px;
+}
+
+#logado{
+    border: 1px rgb(73, 185, 250) solid;
+    background-color: #d2e0f3;
+    padding: 20px;
+    display: none;
+    margin-top: 50px;
+}
+
+#logado.ativo{
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoesLogado span{
+    color: #2463eb;
+    background-color: #bcd5f5;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.informacoesLogado{
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.botoes button{
+    width:100px;
+    height: 50px;
+}
+
+#sair{
+    background-color: rgb(201, 200, 200);
+    color: black;
+    font-weight: bold;
+}
+
+#apagar{
+    background-color: rgb(156, 4, 4);
+    font-weight: bold;
+}
+
+#msgLogin{
+    display: none;
+}
+
+#msgLogin.ativo{
+    display: block;
 }
